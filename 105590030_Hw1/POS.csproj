@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F63DBB83-3D21-40EE-B656-E31095795E2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_105590030_Hw1</RootNamespace>
+    <AssemblyName>105590030_Hw1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Category.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="CustomerPresentationModel.cs" />
+    <Compile Include="POSCustomerSideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POSCustomerSideForm.Designer.cs">
+      <DependentUpon>POSCustomerSideForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meal.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="POSRestaurantSideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POSRestaurantSideForm.Designer.cs">
+      <DependentUpon>POSRestaurantSideForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantPresentationModel.cs" />
+    <Compile Include="StartUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartUpForm.Designer.cs">
+      <DependentUpon>StartUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartUpPresentationModel.cs" />
+    <EmbeddedResource Include="POSCustomerSideForm.resx">
+      <DependentUpon>POSCustomerSideForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POSRestaurantSideForm.resx">
+      <DependentUpon>POSRestaurantSideForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StartUpForm.resx">
+      <DependentUpon>StartUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\POS.Model.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Category.txt" />
+    <Content Include="meal.txt" />
+    <Content Include="mealDescription.txt" />
+    <Content Include="MealPrice.txt" />
+    <Content Include="picture.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataGridViewNumericUpDownElements\DataGridViewNumericUpDownElements.csproj">
+      <Project>{82b50731-be90-433f-bb6e-9b509c5f3b7c}</Project>
+      <Name>DataGridViewNumericUpDownElements</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

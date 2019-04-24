@@ -1,0 +1,17 @@
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\bin\Debug\DataGridViewNumericUpDownElements.pdb
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.csproj.CoreCompileInputs.cache
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.pdb
+C:\Users\hong\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\DataGridViewNumericUpDownElements\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\hong\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\DataGridViewNumericUpDownElements\bin\Debug\DataGridViewNumericUpDownElements.pdb
+C:\Users\hong\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.csprojAssemblyReference.cache
+C:\Users\hong\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.csproj.CoreCompileInputs.cache
+C:\Users\hong\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\hong\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.pdb
+C:\Users\User\Desktop\backup\ntut\2018_fall\視窗程式設計\hw4\105590030\DataGridViewNumericUpDownElements\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\User\Desktop\backup\ntut\2018_fall\視窗程式設計\hw4\105590030\DataGridViewNumericUpDownElements\bin\Debug\DataGridViewNumericUpDownElements.pdb
+C:\Users\User\Desktop\backup\ntut\2018_fall\視窗程式設計\hw4\105590030\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.csprojAssemblyReference.cache
+C:\Users\User\Desktop\backup\ntut\2018_fall\視窗程式設計\hw4\105590030\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\backup\ntut\2018_fall\視窗程式設計\hw4\105590030\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\User\Desktop\backup\ntut\2018_fall\視窗程式設計\hw4\105590030\DataGridViewNumericUpDownElements\obj\Debug\DataGridViewNumericUpDownElements.pdb
